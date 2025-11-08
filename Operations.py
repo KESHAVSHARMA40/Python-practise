@@ -23,4 +23,14 @@ print(A!=B) #True
 print(A>=B) #True
 print(A<=B) #False
 
-#
+#Assignment operators
+
+print("num", A)
+Num = 10
+Num %=2
+Num -=2
+Num /=2
+print("Num",Num)
+
+#Logical Operators (Not,and,or)
+

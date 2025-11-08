@@ -1,0 +1,20 @@
+# A= (input("Enter Your Name:"))
+# B= int(input("Enter Your Age:"))
+# C= int(input("Enter Your Phone Number:"))
+# print("Welcome",A)
+# print("You are",B,"years old")
+# print("Just to confirm your phone number is:",C)
+# D= input("Do you Agree that the provided information is true and honest from your behalf?")
+# print(A,"Agrees to the terms and conditions")
+
+
+# Q-Personal Introduction 
+FirstName = input("Enter your first name:")
+LastName = input("Enter your last name:")
+DateOfBirth = input("Enter your DoB:")
+City= input("Enter the city you live-in:")
+print("Hello",FirstName)
+print("Just to confirm you were born on:",DateOfBirth)
+print("You currently reside in",City)
+input("Do you Agree that the provided information is true and honest from your behalf?")
+print(FirstName,"Agrees to the terms and conditions")
