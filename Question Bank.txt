@@ -1,0 +1,30 @@
+Topic: Variables and Data Types
+
+What are mutable vs immutable data types in Python? Give examples.
+
+
+
+
+What happens when you assign one list to another variable and modify it?
+
+How is None different from 0 and False?
+
+Explain the difference between is and ==.
+
+How do you check the data type of a variable and why does it matter?
+
+Topic: Input, Print, and Operators
+6. What is the data type of input() by default, and how do you handle numeric input properly?
+7. What’s the difference between print(a, b) and print(a + b)?
+8. What happens when you mix integers and floats in arithmetic?
+9. Explain floor division (//) vs true division (/).
+10. Predict the output:
+
+x = 5
+x += 3 * 2
+print(x)
+
+
+What’s the difference between logical (and, or, not) and bitwise (&, |, ~) operators?
+
+When would you use formatted string literals (f-strings) vs concatenation?
