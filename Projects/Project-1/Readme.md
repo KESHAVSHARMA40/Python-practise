@@ -43,19 +43,8 @@ ________________________________________________________________________________
 
     Print the final price after discount.
 
-3. Utility-2: Temperature Alert
 
-    Input temperature in Celsius.
-
-    Display:
-
-    "Cold" if < 15
-
-    "Warm" if between 15–30
-
-    "Hot" if > 30
-
-4. Utility-3: Loan Eligibility Checker
+3. Utility-3: Loan Eligibility Checker
 
     Input: age, monthly income, and credit score.
 
@@ -69,7 +58,7 @@ ________________________________________________________________________________
 
     Print “Eligible” or “Not eligible.”
 
-5. Utility-4: Electricity Bill Calculator
+4. Utility-4: Electricity Bill Calculator
 
     Input units used.
 
@@ -91,9 +80,8 @@ ________________________________________________________________________________
 
 Welcome to Smart Utility Console
 1. Discount Calculator
-2. Temperature Alert
-3. Loan Eligibility Checker
-4. Electricity Bill Calculator
+2. Loan Eligibility Checker
+3. Electricity Bill Calculator
 
 Enter your choice: 3
 
