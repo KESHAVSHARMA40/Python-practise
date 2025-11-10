@@ -7,7 +7,7 @@ App3 = print("3. Electricity Bill Calculator")
 
 # --------------------------------------------------------------------------------------------#
 SelectedApp = int(input("Please enter the number for your selection: "))
-if (SelectedApp <= 3): 
+if ( 0 < SelectedApp <= 3): 
   print(f"You have selected : {SelectedApp}")
 else :
   print("Invalid Selection, please try again!")
