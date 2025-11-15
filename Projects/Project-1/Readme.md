@@ -1,84 +1,91 @@
-🧠Smart Utility Console
+🧠 Smart Utility Console
 
-A beginner-friendly Python project using conditional statements.
-_______________________________________________________________________________________________________________________________________________________________________________
+A modular, menu-driven Python application delivering multiple real-world utilities in a single command-line interface.
+
+---
 
 📘 Overview
 
-The Smart Utility Console is a menu-driven Python program that lets users access multiple small utilities - such as discount calculator, temperature alert, loan eligibility checker and electricity bill generator within one application.
+The Smart Utility Console is a consolidated CLI tool that bundles together everyday utility programs—such as a discount evaluator, loan eligibility checker, and electricity bill calculator.
+It’s built with clear conditional logic and structured input handling, serving as a foundation for more advanced refactoring (functions, loops, modules) in subsequent versions.
 
-This program is designed to help beginners strengthen their understanding of conditional statements (If, Elif, else) and basic program logic.
-
-________________________________________________________________________________________________________________________________________________________________________________
+---
 
 🧩 Project Description
 
-You’ll build a console-based app that offers a few mini-utilities.
-Each utility solves a real-world problem using conditional logic only — no loops, no functions (yet).
-Later, we’ll refactor it with loops and functions when you learn those topics.
+This project demonstrates how multiple independent utilities can be integrated under a unified console menu.
+Each module solves a real scenario using direct conditional branching.
+Future iterations may evolve into a fully modular, function-driven or object-oriented architecture.
 
-________________________________________________________________________________________________________________________________________________________________________________
+
+---
 
 ⚙️ Core Features
+1️⃣ Main Menu
 
-1. Main Menu
+Displays all available utilities.
 
-    Display a numbered list of available utilities.
+Accepts user selection.
 
-    Accept user input to select a feature.
+Gracefully handles invalid input.
 
-    Invalid input → show an error message.
+---
 
-2. Utility-1: Discount Calculator
+2️⃣ Utility: Discount Calculator
 
-    Ask for total purchase amount.
+Inputs: total purchase amount
 
-    Apply:
+Logic:
 
-    10% discount if amount > 5,000
+10,000 → 20% discount
 
-    20% if amount > 10,000
+5,000 → 10% discount
 
-    No discount otherwise.
+Otherwise → no discount
 
-    Print the final price after discount.
+Outputs the final payable amount.
 
+---
 
-3. Utility-3: Loan Eligibility Checker
+3️⃣ Utility: Loan Eligibility Checker
 
-    Input: age, monthly income, and credit score.
+Inputs: age, monthly income, credit score
 
-    Eligible if:
+Eligibility Criteria:
 
-    age ≥ 21
+Age ≥ 21
 
-    income ≥ 25,000
+Income ≥ 25,000
 
-    credit score ≥ 650
+Credit Score ≥ 650
 
-    Print “Eligible” or “Not eligible.”
-
-4. Utility-4: Electricity Bill Calculator
-
-    Input units used.
-
-    Rates:
-
-    Up to 100 units → ₹5/unit
-
-    101–200 units → ₹7/unit
-
-    Above 200 → ₹10/unit
-
-    Add ₹50 fixed charge.
-
-    Print total bill.
-__________________________________________________________________________________________________________________________________________________________________________________
-
-💡 Expected Output (Sample Run)
+Returns a clear eligibility decision.
 
 
+---
+
+4️⃣ Utility: Electricity Bill Calculator
+
+Inputs: total units consumed
+
+Tariff Structure:
+
+0–100 units → ₹5/unit
+
+101–200 units → ₹7/unit
+
+Above 200 → ₹10/unit
+
+Adds fixed service charge of ₹50
+
+Computes and prints the final bill.
+
+---
+---
+
+💡 Sample Output
 Welcome to Smart Utility Console
+
 1. Discount Calculator
 2. Loan Eligibility Checker
 3. Electricity Bill Calculator
@@ -90,14 +97,19 @@ Enter monthly income: 30000
 Enter credit score: 700
 
 You are eligible for the loan.
-_________________________________________________________________________________________________________________________________________________________________________________
 
-🧱 Skills You’ll Reinforce
 
-Decision-making using if, elif, else
+---
+---
 
-Combining multiple conditions with and, or
+🧱 Skills Reinforced
 
-Clean user input handling
+Structured decision-making (if, elif, else)
 
-Structured, readable code design
+Validating and processing user input
+
+Combining conditions using logical operators
+
+Designing readable, maintainable console applications
+
+Preparing code for future modularization (functions, loops, OOP)
