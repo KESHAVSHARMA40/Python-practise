@@ -31,9 +31,27 @@ first = fruits.pop(0) #Apple removed
 fruits.sort()
 print(fruits)
 
+# sort(reverse ==True) sorts list in the descending order
+
+fruits.sort(reverse= True)
+print(fruits)
+
 # reverse 
 fruits.reverse()
 print(fruits)
 
 # len() length of the list
 print(len(fruits))
+
+
+# Q-1  Take 5 user inputs and store them in a list.
+
+Name = str(input("Enter your Name: "))
+Phone = int(input("Enter your Phone Number: "))
+Email = input("Enter your Email address: ")
+
+Credentials = [Name,Phone,Email]
+print("confirmation required!",Credentials)
+Confirmation = input("Please confirm your credentials(y/n): ")
+print(Confirmation)
+
