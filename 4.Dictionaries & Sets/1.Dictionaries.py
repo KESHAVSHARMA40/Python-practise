@@ -10,6 +10,24 @@
 #                                           "Name" : "Keshav",
 #                                        }
 
+
+# get() → safe access
+
+# items() → loop properly
+
+# update() → merge dicts
+
+# pop() → remove by key
+
+# popitem() → remove last
+
+# clear() → empty dict
+
+# copy() → avoid unwanted linking
+
+# fromkeys() → fast initialization
+
+
 user = {
     "name": "Keshav",
     "age": 22,
