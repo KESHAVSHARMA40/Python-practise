@@ -48,3 +48,13 @@ demo["Age"] = 22 # Updating the existing data.
 
 print(demo["Remarks"])
 print(demo["Age"])
+
+# If in case the key does not exists in the data provided.
+# demo["Marks"] This is show error. 
+#  instead use .Get to get the response as a value or none.
+demo.get("Marks") # MAKE SURE TO USE CURLY BRACES INSTEAD OF SQUARE BRACES.
+
+# To remove the key we use .pop method
+
+demo.pop("Age")
+# print(demo["Age"]) Running this will now give an error in the terminal.
