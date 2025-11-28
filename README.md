@@ -63,6 +63,4 @@ I’ll gradually expand this repo with:
 - More backend-style mini projects  
 - Clean backend folder architectures  
 
----
 
-If you want a **portfolio version**, a **minimal version**, or a **banner-based aesthetic version**, I can generate that too.
